@@ -13,14 +13,10 @@
 ( function( $ ) {
 	'use strict';
 
-	var globalCategory = '';
-	var devMode;
-
 	$.svlSupport = $.svlSupport || {};
 
 	// Load everything up!
 	$( document ).ready(
-		function() {
-		}
+		function() {}
 	);
 } )( jQuery );

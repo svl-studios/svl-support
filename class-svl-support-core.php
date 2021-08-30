@@ -82,7 +82,7 @@ if ( ! class_exists( 'SVL_Support_Core' ) ) {
 		 * Include files.
 		 */
 		public function includes() {
-			require_once self::$dir . 'inc/class-trial-kev-includes.php';
+			require_once self::$dir . 'inc/class-svl-support-includes.php';
 			require_once self::$dir . 'inc/class-svl-support-post-type.php';
 
 			// Load textdomain.

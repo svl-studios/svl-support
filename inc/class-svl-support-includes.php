@@ -19,7 +19,7 @@ if ( ! class_exists( 'SVL_Support_Includes' ) ) {
 	class SVL_Support_Includes {
 
 		/**
-		 * Trial_Kev_Includes constructor.
+		 * SVL_Support_Includes constructor.
 		 */
 		public function __construct() {
 

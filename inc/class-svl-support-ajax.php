@@ -1,6 +1,6 @@
 <?php
 /**
- * Post Type Functions
+ * AJAX Functions
  *
  * @package     SVL Support
  * @author      SVL Studios
@@ -11,15 +11,15 @@
 
 defined( 'ABSPATH' ) || exit;
 
-if ( ! class_exists( 'SVL_Support_Post_Type' ) ) {
+if ( ! class_exists( 'SVL_Support_AJAX' ) ) {
 
 	/**
-	 * Class SVL_Support_Post_Type
+	 * Class SVL_Support_AJAX
 	 */
-	class SVL_Support_Post_Type {
+	class SVL_Support_AJAX {
 
 		/**
-		 * SVL_Support_Post_Type constructor.
+		 * SVL_Support_AJAX constructor.
 		 */
 		public function __construct() {
 
@@ -27,5 +27,5 @@ if ( ! class_exists( 'SVL_Support_Post_Type' ) ) {
 	}
 
 	// Create the class.
-	new SVL_Support_Post_Type();
+	new SVL_Support_AJAX();
 }

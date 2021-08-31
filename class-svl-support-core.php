@@ -84,6 +84,7 @@ if ( ! class_exists( 'SVL_Support_Core' ) ) {
 		public function includes() {
 			require_once self::$dir . 'inc/class-svl-support-includes.php';
 			require_once self::$dir . 'inc/class-svl-support-post-type.php';
+			require_once self::$dir . 'inc/class-svl-support-ajax.php';
 
 			// Load textdomain.
 			load_plugin_textdomain( 'svl-support', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
